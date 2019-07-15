@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="spline_interpolating" type="spline_interpolating" name="spline_interpolating" />
+  <node pkg="tf" type="static_transform_publisher" name="world" args="0.1 0 0 0 0 0 world base_link 50" />
+</launch>
